@@ -1,0 +1,7 @@
+dev-libs/libgee
+x11-libs/gtk+:3
+>=media-libs/clutter-1.12
+media-libs/clutter-gtk
+x11-libs/mx
+dev-libs/keybinder
+x11-libs/libnotify

@@ -1,0 +1,63 @@
+app-editors/nano minimal -magic -ncurses -spell
+app-emulation/qemu xattr xfs -gtk
+app-emulation/wine gstreamer osmesa
+dev-db/sqlite secure-delete
+dev-lang/php curl pcntl zip gd
+dev-lang/python sqlite
+dev-libs/elfutils static-libs
+dev-python/ipython matplotlib notebook nbconvert doc
+dev-python/spyder pyflakes rope ipython matplotlib numpy pep8 pylint scipy sphinx
+dev-qt/qt-creator autotools git cmake android
+dev-qt/qtdeclarative webkit
+dev-vcs/git -gtk
+dev-vcs/mercurial -bugzilla
+gnome-extra/zenity -webkit
+kde-base/kate python
+kde-base/kde-meta sdk
+kde-base/nepomuk-core -exif ffmpeg taglib
+kde-base/libkcddb musicbrainz
+kde-base/systemsettings gtk
+kde-base/kdebindings-meta python
+kde-base/plasma-workspace python
+media-gfx/splashutils -mng
+media-libs/mesa gbm xa xvmc llvm-shared-libs gles1 gles2 openvg osmesa r600-llvm-compiler vdpau openmax
+media-libs/sdl-mixer mod modplug
+media-sound/beets beatport chroma convert discogs echonest_tempo lastgenre replaygain web
+media-sound/puddletag acoustid cover musicbrainz
+media-sound/pulseaudio realtime
+media-video/ffmpeg aacplus amr avx jpeg2k libass libsoxr openal opus rtmp schroedinger speex ssse3 theora threads twolame vpx 
+virtual/ffmpeg theora
+media-plugins/gst-plugins-meta ffmpeg
+net-libs/webkit-gtk -opengl -geoloc
+net-misc/curl adns
+net-misc/dhcp -server -ldap
+sys-apps/iproute2 -iptables -berkdb
+sys-libs/glibc gd
+sys-kernel/linux-firmware savedconfig
+sys-kernel/gentoo-sources experimental
+x11-base/xorg-server xvfb
+x11-misc/lightdm -gtk
+x11-libs/libdrm libkms
+x11-themes/qtcurve windeco
+www-client/firefox gstreamer -alsa
+
+## <x>
+virtual/mysql embedded
+dev-db/mariadb embedded
+
+## media-gfx/splashutils
+app-arch/bzip2 static-libs
+media-libs/freetype static-libs
+media-libs/lcms static-libs
+media-libs/libmng static-libs
+media-libs/libpng static-libs
+sys-libs/gpm static-libs
+sys-libs/zlib static-libs
+virtual/jpeg static-libs
+media-libs/libjpeg-turbo static-libs
+## bz2?
+ media-gfx/splashutils -truetype
+
+#########################################################################
+
+=media-tv/xbmc-12.3 -vaapi -vdpau

@@ -1,0 +1,29 @@
+*/*::gamerlay
+*/*::hasufell
+*/*::qt
+
+# virtual cant cant
+dev-python/imaging
+dev-db/mysql
+
+# ipv6 ...
+#net-misc/dhcpcd
+
+# 
+=app-doc/doxygen-1.8.5
+
+# cos of cos
+>app-emulation/wine-1.7.13
+
+# sarasa ( steam )
+#=sys-libs/glibc-2.18-r1
+
+# 500446
+#>x11-libs/libva-1.0.15
+
+# why not?
+#net-misc/netifrc
+#sys-apps/openrc
+#sys-apps/sysvinit
+#sys-process/runit
+
