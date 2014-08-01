@@ -8,31 +8,12 @@ games-engines/fife::gamerlay
 games-util/steam-launcher::gamerlay
 media-libs/libsdl:2::gamerlay
 
-#games-util/desurium-meta::hasufell
-#=media-libs/desurium-cef-9999::hasufell
-#=games-util/desurium-9999::hasufell
+games-action/minetest::hasufell
+games-action/minetest_game::hasufell
 
-# required by virtual/udev-208-r2
-# required by app-misc/media-player-info-21-r1
-# required by kde-base/kdelibs-4.12.3[udev]
-# required by kde-base/step-4.12.3[handbook]
-# required by kde-base/kdeedu-meta-4.12.3
-# required by kde-base/kde-meta-4.12.3
-# required by @selected
-# required by @world (argument)
-# /usr/portage/profiles/package.mask:
-# Rick Farina <zerochaos@dev.gentoo.org> (28 Mar 2014)
-# Masked pending discussion on -dev ML, bug #506114
+<lxqt-base/*9999::qt
+<lxqt-misc/*9999::qt
+
+# systemd workaround
 =virtual/libudev-208
-# required by virtual/udev-208-r2[gudev]
-# required by app-misc/media-player-info-21-r1
-# required by kde-base/kdelibs-4.12.3[udev]
-# required by kde-base/step-4.12.3[handbook]
-# required by kde-base/kdeedu-meta-4.12.3
-# required by kde-base/kde-meta-4.12.3
-# required by @selected
-# required by @world (argument)
-# /usr/portage/profiles/package.mask:
-# Rick Farina <zerochaos@dev.gentoo.org> (28 Mar 2014)
-# Masked pending discussion on -dev ML, bug #506114
 =virtual/libgudev-208

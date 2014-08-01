@@ -1,17 +1,21 @@
 app-editors/nano minimal -magic -ncurses -spell
 app-emulation/qemu xattr xfs -gtk
-app-emulation/wine gstreamer osmesa
+app-emulation/wine gstreamer osmesa openal
 dev-db/sqlite secure-delete
 dev-lang/php curl pcntl zip gd
 dev-lang/python sqlite
 dev-libs/elfutils static-libs
 dev-python/ipython matplotlib notebook nbconvert doc
 dev-python/spyder pyflakes rope ipython matplotlib numpy pep8 pylint scipy sphinx
-dev-qt/qt-creator autotools git cmake android
-dev-qt/qtdeclarative webkit
+dev-qt/qt-meta examples openvg
+dev-qt/designer phonon webkit
+dev-python/PyQt4 designer examples multimedia scripttools xmlpatterns
+dev-qt/qtgui gtkstyle
+dev-qt/qtdemo multimedia openvg webkit xmlpatterns
 dev-vcs/git -gtk
 dev-vcs/mercurial -bugzilla
 gnome-extra/zenity -webkit
+games-strategy/freeciv modpack
 kde-base/kate python
 kde-base/kde-meta sdk
 kde-base/nepomuk-core -exif ffmpeg taglib
@@ -24,7 +28,7 @@ media-libs/mesa gbm xa xvmc llvm-shared-libs gles1 gles2 openvg osmesa r600-llvm
 media-libs/sdl-mixer mod modplug
 media-sound/beets beatport chroma convert discogs echonest_tempo lastgenre replaygain web
 media-sound/puddletag acoustid cover musicbrainz
-media-sound/pulseaudio realtime
+media-sound/pulseaudio realtime equalizer
 media-video/ffmpeg aacplus amr avx jpeg2k libass libsoxr openal opus rtmp schroedinger speex ssse3 theora threads twolame vpx 
 virtual/ffmpeg theora
 media-plugins/gst-plugins-meta ffmpeg
@@ -41,9 +45,9 @@ x11-libs/libdrm libkms
 x11-themes/qtcurve windeco
 www-client/firefox gstreamer -alsa
 
-## <x>
+## <x>; while class means !class -> -xml *o*o :D
 virtual/mysql embedded
-dev-db/mariadb embedded
+dev-db/mariadb embedded -xml
 
 ## media-gfx/splashutils
 app-arch/bzip2 static-libs
@@ -60,4 +64,4 @@ media-libs/libjpeg-turbo static-libs
 
 #########################################################################
 
-=media-tv/xbmc-12.3 -vaapi -vdpau
+>=media-libs/lcms-1.19-r2:0 python
