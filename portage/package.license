@@ -1,4 +1,2 @@
 #required by www-plugins/adobe-flash (argument)
 >=www-plugins/adobe-flash-11.2.202.270 AdobeFlash-11.x
-
->=dev-java/oracle-jre-bin-1.8.0.5 Oracle-BCLA-JavaSE

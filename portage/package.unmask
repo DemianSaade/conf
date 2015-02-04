@@ -1,18 +1,8 @@
-games-strategy/0ad::hasufell
-games-strategy/0ad-data::hasufell
-games-fps/unvanquished-data::hasufell
-games-fps/unvanquished::hasufell
-
-games-strategy/unknown-horizons::gamerlay
-games-engines/fife::gamerlay
-games-util/steam-launcher::gamerlay
-media-libs/libsdl:2::gamerlay
-
-games-action/minetest::hasufell
-games-action/minetest_game::hasufell
-
 <lxqt-base/*9999::qt
 <lxqt-misc/*9999::qt
+
+games-util/steam-launcher::gamerlay
+media-sound/easymp3gain::sunrise
 
 # systemd workaround
 =virtual/libudev-208

@@ -1,41 +1,39 @@
 app-editors/nano minimal -magic -ncurses -spell
 app-emulation/qemu xattr xfs -gtk
-app-emulation/wine gstreamer osmesa openal
+app-emulation/wine -run-exes -cups -ldap -realtime -pulseaudio osmesa
+app-misc/mc -X -gpm -spell
 dev-db/sqlite secure-delete
 dev-lang/php curl pcntl zip gd
 dev-lang/python sqlite
 dev-libs/elfutils static-libs
-dev-python/ipython matplotlib notebook nbconvert doc
-dev-python/spyder pyflakes rope ipython matplotlib numpy pep8 pylint scipy sphinx
+dev-python/ipython matplotlib notebook nbconvert
 dev-qt/qt-meta examples openvg
 dev-qt/designer phonon webkit
+dev-qt/qt-creator autotools cmake git
 dev-python/PyQt4 designer examples multimedia scripttools xmlpatterns
 dev-qt/qtgui gtkstyle
 dev-qt/qtdemo multimedia openvg webkit xmlpatterns
 dev-vcs/git -gtk
 dev-vcs/mercurial -bugzilla
 gnome-extra/zenity -webkit
-games-strategy/freeciv modpack
 kde-base/kate python
-kde-base/kde-meta sdk
+kde-base/kde-meta sdk minimal -semantic-desktop
 kde-base/nepomuk-core -exif ffmpeg taglib
 kde-base/libkcddb musicbrainz
 kde-base/systemsettings gtk
 kde-base/kdebindings-meta python
 kde-base/plasma-workspace python
-media-gfx/splashutils -mng
-media-libs/mesa gbm xa xvmc llvm-shared-libs gles1 gles2 openvg osmesa r600-llvm-compiler vdpau openmax
-media-libs/sdl-mixer mod modplug
-media-sound/beets beatport chroma convert discogs echonest_tempo lastgenre replaygain web
-media-sound/puddletag acoustid cover musicbrainz
+media-libs/mesa xa xvmc osmesa r600-llvm-compiler openmax
 media-sound/pulseaudio realtime equalizer
-media-video/ffmpeg aacplus amr avx jpeg2k libass libsoxr openal opus rtmp schroedinger speex ssse3 theora threads twolame vpx 
-virtual/ffmpeg theora
 media-plugins/gst-plugins-meta ffmpeg
-net-libs/webkit-gtk -opengl -geoloc
+media-plugins/gst-plugins-meta:0.10 -ffmpeg
+media-libs/gst-plugins-bad -gles2
+media-libs/phonon gstreamer -vlc
+media-video/libav threads
+media-video/mpv -cdio -dvd -jpeg -mpg123
 net-misc/curl adns
-net-misc/dhcp -server -ldap
-sys-apps/iproute2 -iptables -berkdb
+sys-apps/iproute2 -berkdb -iptables
+sys-devel/llvm clang udis86
 sys-libs/glibc gd
 sys-kernel/linux-firmware savedconfig
 sys-kernel/gentoo-sources experimental
@@ -49,19 +47,4 @@ www-client/firefox gstreamer -alsa
 virtual/mysql embedded
 dev-db/mariadb embedded -xml
 
-## media-gfx/splashutils
-app-arch/bzip2 static-libs
-media-libs/freetype static-libs
-media-libs/lcms static-libs
-media-libs/libmng static-libs
-media-libs/libpng static-libs
-sys-libs/gpm static-libs
-sys-libs/zlib static-libs
-virtual/jpeg static-libs
-media-libs/libjpeg-turbo static-libs
-## bz2?
- media-gfx/splashutils -truetype
-
 #########################################################################
-
->=media-libs/lcms-1.19-r2:0 python

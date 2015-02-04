@@ -1,6 +1,8 @@
+*/*::*
 */*::gamerlay
 */*::hasufell
 */*::qt
+*/*::sunrise
 
 # virtual cant cant
 dev-python/imaging
@@ -36,3 +38,8 @@ dev-db/mysql
 =media-libs/mesa-10.2.0_rc4
 #=media-libs/mesa-10.2.0_rc5
 
+# tmp, really, tmp
+#>sys-libs/glibc-2.19-r1
+>sys-devel/gcc-4.8.3
+>=sys-devel/llvm-3.5.1:0/3.5
+>dev-python/pip-1.5.6
