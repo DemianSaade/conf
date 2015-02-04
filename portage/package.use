@@ -30,6 +30,7 @@ media-plugins/gst-plugins-meta:0.10 -ffmpeg
 media-libs/gst-plugins-bad -gles2
 media-libs/phonon gstreamer -vlc
 media-video/libav threads
+=media-video/vlc-2.1.5-r1 -vdpau -cdda libass  #vdpau+libav::10
 media-video/mpv -cdio -dvd -jpeg -mpg123
 net-misc/curl adns
 sys-apps/iproute2 -berkdb -iptables

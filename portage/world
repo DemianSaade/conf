@@ -30,15 +30,15 @@ kde-base/kate
 kde-base/kcalc
 kde-base/kdebase-meta
 kde-base/kdebase-runtime-meta
+kde-base/kompare
 kde-base/okular
 kde-base/plasma-workspace
-kde-misc/kdiff3
 mail-client/thunderbird-bin
 media-fonts/droid
 media-fonts/liberation-fonts
 media-libs/libtxc_dxtn
 media-sound/clementine
-media-video/mpv
+media-video/vlc
 net-misc/curl
 net-p2p/ktorrent
 sys-apps/pciutils
