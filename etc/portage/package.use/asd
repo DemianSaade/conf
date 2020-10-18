@@ -1,0 +1,67 @@
+
+dev-db/sqlite secure-delete
+app-admin/sysstat lm-sensors
+app-emulation/lxc cgmanager
+app-emulation/qemu sdl usb virgl
+app-misc/mc gpm sftp -spell
+dev-lang/python sqlite xml
+dev-libs/elfutils static-libs
+media-libs/libsdl2 haptic vulkan
+media-libs/mesa d3d9 osmesa unwind vulkan vulkan-overlay
+media-plugins/gst-plugins-meta ffmpeg
+media-plugins/gst-plugins-meta -a52 -aac -cdda -dts -dvd -flac -mp3 -mpeg -ogg -vorbis -x264
+media-sound/pulseaudio realtime
+media-video/ffmpeg fdk mp3 sdl svg vorbis x264 xcb xvid vulkan
+net-libs/webkit-gtk -geolocation
+net-p2p/transmission gtk
+sys-apps/dbus user-session
+sys-apps/lshw -gtk
+sys-apps/smartmontools -daemon
+sys-apps/systemd cgroup-hybrid policykit nat
+sys-apps/util-linux static-libs
+sys-boot/grub grub_platforms_emu
+sys-libs/ncurses -gpm
+x11-libs/libdrm libkms
+x11-libs/libva utils
+x11-misc/slim branding
+dev-java/icedtea-bin -alsa -pulseaudio
+gui-wm/hikari layershell
+dev-libs/boost static-libs
+dev-db/mariadb -perl
+dev-db/mysql -perl
+gui-wm/sway tray wallpapers
+gui-apps/waybar network popups tray
+app-emulation/docker overlay
+app-arch/bzip2 static-libs
+sys-libs/zlib static-libs
+
+dev-libs/icu abi_x86_32
+sys-devel/llvm abi_x86_32
+dev-libs/libxml2 -icu
+sys-libs/zlib abi_x86_32
+dev-libs/libffi abi_x86_32
+sys-libs/ncurses abi_x86_32
+
+dev-libs/weston -suid wayland-compositor xwayland
+lxde-base/lxsession upower
+x11-libs/libfm gtk
+
+virtual/wine abi_x86_32 staging
+app-emulation/wine-staging -alsa -gcrypt -lcms -perl -run-exes -udisks -xml gstreamer prelink -vkd3d vulkan abi_x86_32 -mp3 -sdl
+media-libs/mesa -d3d9 -osmesa
+sys-firmware/ipxe -iso
+
+sys-apps/openrc sysv-utils
+sys-apps/hwids usb
+dev-libs/weston -lcms
+gnome-base/gvfs -cdda
+app-emulation/qemu -gtk
+sys-boot/grub -sdl
+x11-libs/libfm -exif
+=sys-devel/llvm-10.0.1 -xml
+
+app-admin/logrotate -cron
+app-admin/syslog-ng -tcpd
+
+media-video/mpv -cdda drm -dvd gbm -jpeg vulkan
+net-fs/nfs-utils -nfsv4

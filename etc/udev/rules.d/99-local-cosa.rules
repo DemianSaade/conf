@@ -1,0 +1,21 @@
+# PCI runtime power management
+#ACTION=="add", SUBSYSTEM=="pci", ATTR{power/control}="auto"
+
+# USB autosuspend
+#ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="09da", ATTR{idProduct}=="0006", GOTO="power_usb_rules_end"
+#ACTION=="add", SUBSYSTEM=="usb", ATTR{power/control}="auto"
+#ACTION=="add", SUBSYSTEM=="usb", TEST=="../power/autosuspend" ATTR{power/autosuspend}="120"
+#LABEL="power_usb_rules_end"
+
+# SATA active link power management
+#ACTION=="add", SUBSYSTEM=="scsi_host", KERNEL=="host*", ATTR{link_power_management_policy}="med_power_with_dipm"
+
+# set scheduler for rotating disks
+#ACTION=="add|change", KERNEL=="sd[a-z]", ATTR{queue/rotational}=="1", ATTR{queue/scheduler}="bfq"
+
+# log firmware loading?
+#SUBSYSTEM=="firmware", ACTION=="add", RUN+="/usr/bin/systemd-cat -t firmware echo $env{FIRMWARE}"
+
+# cosas
+SUBSYSTEM=="block", ATTRS{manufacturer}=="*Kingston*", ATTRS{product}=="*DataTraveler*", ATTRS{serial}=="60A44C3FB294F361B94B0D85", \
+  ENV{UDISKS_IGNORE}="", ENV{UDISKS_NAME}="cosas", ENV{UDISKS_FILESYSTEM_SHARED}="1"

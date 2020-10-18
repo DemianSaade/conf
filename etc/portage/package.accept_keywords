@@ -1,0 +1,8 @@
+dev-lang/go -~
+net-libs/webkit-gtk -*
+
+#sys-devel/gcc -~
+>sys-devel/gcc-10.2.0-r1 -*
+>dev-lang/spidermonkey-78.2.0 -*
+sys-devel/llvm -~
+

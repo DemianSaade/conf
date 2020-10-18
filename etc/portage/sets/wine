@@ -1,0 +1,7 @@
+app-emulation/wine-gecko
+app-emulation/wine-mono
+app-eselect/eselect-wine
+#app-emulation/faudio
+#dev-perl/XML-Simple
+app-emulation/wine-desktop-common
+app-emulation/wine-staging

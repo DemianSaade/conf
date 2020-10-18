@@ -1,9 +1,0 @@
-<lxqt-base/*9999::qt
-<lxqt-misc/*9999::qt
-
-games-util/steam-launcher::gamerlay
-media-sound/easymp3gain::sunrise
-
-# systemd workaround
-=virtual/libudev-208
-=virtual/libgudev-208

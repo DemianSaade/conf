@@ -1,0 +1,15 @@
+*/*::gnome-next
+*/*::go-overlay
+
+#>dev-lang/ruby-2.5.7
+#>dev-lang/python-3.7.7-r1
+#>dev-lang/python-3.6.10-r1:3.6
+#>dev-lang/python-2.7.17-r2:2.7
+
+dev-lang/rust
+#sys-devel/clang
+#sys-devel/clang-runtime
+
+#>dev-libs/icu-64.2
+#>net-firewall/ebtables-2.0.11
+#>net-firewall/iptables-1.8.4-r1
